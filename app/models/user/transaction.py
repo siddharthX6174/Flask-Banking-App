@@ -4,7 +4,7 @@ from datetime import datetime
 
 class Transaction(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     recipient_name = db.Column(db.String(200))
     recipient_card_number = db.Column(db.String(16))
     amount = db.Column(db.Float)
