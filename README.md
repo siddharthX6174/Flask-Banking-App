@@ -82,4 +82,12 @@ Key `.env` variables:
 - Models specify explicit table names (e.g., `users`) to avoid reserved-name conflicts.
 - For production deployments and schema changes, use a migration tool like Alembic/Flask-Migrate.
 
+<<<<<<< HEAD
 
+=======
+MIT (add your own LICENSE file if needed)
+
+---
+
+If you want a different tone or shorter sections, tell me which parts to trim or reword.
+>>>>>>> cb3d78d57d0902de7c4257808f5a898cf59d78ea
